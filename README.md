@@ -12,7 +12,7 @@ It holds no funds, has no admin key, and ships no frontend.
 
 ## Status (what has actually been verified)
 
-See [docs/DEPLOYMENT.md](docs/DEPLOYMENT.md) for exact transaction evidence. This repository is local only; it has not been pushed anywhere.
+See [docs/DEPLOYMENT.md](docs/DEPLOYMENT.md) for the Studionet address and transaction hashes (receipts ACCEPTED, finalization not checked). This repository is local only.
 
 | Gate | Result |
 |---|---|
@@ -20,7 +20,7 @@ See [docs/DEPLOYMENT.md](docs/DEPLOYMENT.md) for exact transaction evidence. Thi
 | Pickling check (`direct_vm.check_pickling = True`) | enabled for every Direct test |
 | Mutation check of the validator | 8 mutants: 7 killed, 1 survives by design (see docs/CONSENSUS.md) |
 | `genvm-lint lint` / `check` (0.11.0) | pass / pass |
-| Studionet integration | see docs/DEPLOYMENT.md |
+| Studionet integration | 5 of 5 passed (one re-run after a network timeout) |
 
 ## Why GenLayer
 

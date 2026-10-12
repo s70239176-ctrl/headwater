@@ -1,0 +1,92 @@
+{
+  "address": "0x05d2eaE4BBB5C3fB4339Fde37eCf3A8A5D4bcC50",
+  "deployer": "0x103D0c8436aA1013B6269230323746B0918B0621",
+  "deploy": {
+    "hash": "0xb843849af925ca083f6adde4342b19e4746d5546b6b4dd3ec96a125334751f39",
+    "status_name": "ACCEPTED",
+    "result_name": "MAJORITY_AGREE"
+  },
+  "tx_ok": {
+    "success": true,
+    "negative": true,
+    "unreachable": true
+  },
+  "success": {
+    "claim_id": 1,
+    "open": {
+      "hash": "0x33636135b0a7ff6bd1335c58ab80ec32b0de9f09691b5f1d1897952d2f054bc5",
+      "status_name": "ACCEPTED",
+      "result_name": "MAJORITY_AGREE"
+    },
+    "assess": {
+      "hash": "0x0569facb8377bbcd9fce80f409195087f1853ce0c5b024617bca40020ed5d7de",
+      "status_name": "ACCEPTED",
+      "result_name": "MAJORITY_AGREE"
+    },
+    "verdict": {
+      "age_s": 34,
+      "assessed_ts": 1791821779,
+      "definition_hash": "598cd6db84319bdfab73e07478890bf13567163ae51397a18e73f54d9f921800",
+      "evidence_digest": "61c7eacc60e6b173a802491c14e68bb4",
+      "independent_refute": 0,
+      "independent_support": 2,
+      "min_independent": 2,
+      "raw_support": 3,
+      "status": "RELIABLE",
+      "verdict": "CORROBORATED"
+    },
+    "is_corroborated": true
+  },
+  "negative": {
+    "claim_id": 3,
+    "open": {
+      "hash": "0x58753ed2fce45b308f6d44df3793f8d93cb395f7eefc63c3a8f764fe2aa3d048",
+      "status_name": "ACCEPTED",
+      "result_name": "MAJORITY_AGREE"
+    },
+    "assess": {
+      "hash": "0x9a5921369950e599b298982bee379cd3fc62215942c6100a1256df0a6d60c994",
+      "status_name": "ACCEPTED",
+      "result_name": "MAJORITY_AGREE"
+    },
+    "verdict": {
+      "age_s": 50,
+      "assessed_ts": 1791822084,
+      "definition_hash": "2e05c0cabb0cff518074717b797413a675ba4c131187f873330bf061809950cd",
+      "evidence_digest": "c0467d5ff4cd73ad8ff0a00c2e788459",
+      "independent_refute": 2,
+      "independent_support": 0,
+      "min_independent": 2,
+      "raw_support": 0,
+      "status": "BLOCKED",
+      "verdict": "REFUTED"
+    },
+    "is_corroborated": false
+  },
+  "unreachable": {
+    "claim_id": 4,
+    "open": {
+      "hash": "0xb285a33d3d216f23e0d78e4b525f25d9cfcc1c4be0e329cde5065286fb5f9820",
+      "status_name": "ACCEPTED",
+      "result_name": "MAJORITY_AGREE"
+    },
+    "assess": {
+      "hash": "0xfec23e11a4ad6e429699f63d69ec4aed0b1152b435b30a002a9cdb4f3d2a9974",
+      "status_name": "ACCEPTED",
+      "result_name": "MAJORITY_AGREE"
+    },
+    "verdict": {
+      "age_s": 28,
+      "assessed_ts": 1791822188,
+      "definition_hash": "b53a902d819048ad359a8a8b467b55f1276c83f0cf3acc63d6db4c3b9c868204",
+      "evidence_digest": "452fba8277bb3dfe4dd105c45483db36",
+      "independent_refute": 0,
+      "independent_support": 0,
+      "min_independent": 2,
+      "raw_support": 0,
+      "status": "UNKNOWN",
+      "verdict": "INSUFFICIENT"
+    },
+    "is_corroborated": false
+  }
+}
