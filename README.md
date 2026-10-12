@@ -10,6 +10,17 @@ It holds no funds, has no admin key, and ships no frontend.
 - **What it decides (consensus):** which sources are readable, what each says about the claim, and which are copies of each other.
 - **What it never delegates to a model:** thresholds, origin merging floors, quorum counts, freshness, state transitions.
 
+## Canonical deployment (Studionet)
+
+| | |
+|---|---|
+| Network | GenLayer Studionet, chain id 61999, RPC `https://studio.genlayer.com/api` |
+| Contract | `0x05d2eaE4BBB5C3fB4339Fde37eCf3A8A5D4bcC50` |
+| Explorer | https://explorer-studio.genlayer.com/address/0x05d2eaE4BBB5C3fB4339Fde37eCf3A8A5D4bcC50 |
+| Deploy tx | `0xb843849af925ca083f6adde4342b19e4746d5546b6b4dd3ec96a125334751f39` |
+| Receipt | `ACCEPTED` / `MAJORITY_AGREE` (finalization not checked) |
+| Source | commit `190781e`, contract blob `242b7f9c812ad68e1a1e37f5deec2bd18210af1e` (unchanged since) |
+
 ## Status (what has actually been verified)
 
 See [docs/DEPLOYMENT.md](docs/DEPLOYMENT.md) for the Studionet address and transaction hashes (receipts ACCEPTED, finalization not checked)..
