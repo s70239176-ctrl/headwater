@@ -12,7 +12,7 @@ It holds no funds, has no admin key, and ships no frontend.
 
 ## Status (what has actually been verified)
 
-See [docs/DEPLOYMENT.md](docs/DEPLOYMENT.md) for the Studionet address and transaction hashes (receipts ACCEPTED, finalization not checked). This repository is local only.
+See [docs/DEPLOYMENT.md](docs/DEPLOYMENT.md) for the Studionet address and transaction hashes (receipts ACCEPTED, finalization not checked)..
 
 | Gate | Result |
 |---|---|

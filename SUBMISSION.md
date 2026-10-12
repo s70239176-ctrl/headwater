@@ -2,7 +2,7 @@
 
 **Category:** standalone Intelligent Contract. **One line:** counts independent origins behind a claim, not URLs.
 
-- Repository: local only, not pushed (no remote configured).
+- Repository: https://github.com/s70239176-ctrl/headwater
 - Contract: `0x05d2eaE4BBB5C3fB4339Fde37eCf3A8A5D4bcC50` on Studionet. Explorer: https://explorer-studio.genlayer.com/address/0x05d2eaE4BBB5C3fB4339Fde37eCf3A8A5D4bcC50
 - Deploy tx: `0xb843849af925ca083f6adde4342b19e4746d5546b6b4dd3ec96a125334751f39` (ACCEPTED, MAJORITY_AGREE; finalization not checked). Source commit `190781e`, blob `242b7f9c…`.
 - **Why GenLayer:** validators fetch and judge the sources themselves; a single operator would decide what counts as independent.
